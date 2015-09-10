@@ -43,13 +43,13 @@ Java VM >= 1.6 installed ( JDK 1.7 recommended)
 
 2. Run it using java:
 
-    > java -jar WebGoat-6.0-exec-war.jar
+    > java -jar WebGoat-6.0.1-war-exec.jar
 
 3. Then navigate in your browser to: (http://localhost:8080/WebGoat)
 
 4. If you would like to change the port or other options, use:
 
-    > java -jar WebGoat-6.0-exec-war.jar --help
+    > java -jar WebGoat-6.0.1-war-exec.jar --help
 
 
 # Standard Run Instructions (For Developers)
@@ -82,4 +82,4 @@ project using maven:
 3. Maven will run the project in an embedded tomcat. The package phase also builds an executable jar file. You can run it using:
 
     > cd target
-    > java -jar WebGoat-6.0-exec-war.jar http://localhost:8080/WebGoat
+    > java -jar WebGoat-6.0.1-war-exec.jar http://localhost:8080/WebGoat
